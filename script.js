@@ -8,9 +8,7 @@ const navLinks = document.querySelectorAll('.nav-item');
 burger.addEventListener('click', navSlide)
 
 function navSlide () {
-
     nav.classList.toggle('nav-active');
-
     navLinks.forEach((link, index)=> {
         if (link.style.animation) {
             link.style.animation = '';
@@ -18,9 +16,7 @@ function navSlide () {
         else {
             link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 1.2}s`;
         }
-    
     })
-
     burger.classList.toggle('toggle');
 }
 
@@ -46,10 +42,7 @@ $('.slider').slick({
   button.addEventListener('click', (e) => {
     e.preventDefault() ;
     form.classList.toggle('toggle') 
-    
     const contactText = document.querySelectorAll('.contact-text');
-    const icons = document.querySelector('.icons');
-    
     contactText.forEach((text)=> {
       text.classList.toggle('no-display');
     })
@@ -61,7 +54,7 @@ $('.slider').slick({
     }
   }
 
-  //Animation
+//Animation
 AOS.init();
 
 gsap.from(".nav-item", {x: -100, duration: 1, delay: .1, opacity:0, stagger: .5})
@@ -70,15 +63,14 @@ gsap.from("h4", {x: -100, duration: 1, delay: .2, opacity:0})
 gsap.from(".girlImage", { duration: 3, delay: .5, opacity:0})
 
 function installMediaQueryWatcher(mediaQuery, layoutChangedCallback) {
-  var mql = window.matchMedia(mediaQuery);
+  let mql = window.matchMedia(mediaQuery);
   mql.addListener(function (e) { return layoutChangedCallback(e.matches); });
   layoutChangedCallback(mql.matches);
 }
 
 installMediaQueryWatcher("(min-width: 1050px)", function(matches) {
-  
   if (matches) {
-    
+  
     gsap.to(".life-facts-0", {
       text: `<span>Life facts</span>`,
       duration: 0.5,
@@ -195,8 +187,6 @@ installMediaQueryWatcher("(min-width: 1050px)", function(matches) {
               <p class="about-me-1">Being a <span>Russian</span>, based in <span>Turkey</span>, is ready for cross-cultural communication and further relocation.</p>
             <p class="about-me-2">Now in the process of learning <span>React</span> to further progress in web deveplopment.</p>
             <p class="about-me-3">Available for <span>hire</span> and open to any ideas of cooperation.</p>*/
-    
-    
     
   } else {
     
@@ -323,8 +313,6 @@ installMediaQueryWatcher("(min-width: 1050px)", function(matches) {
 
 const images = document.querySelectorAll('.project');
 
-
-
 images.forEach(item => {
   item.addEventListener('mouseover', () => {
     removeFocus();
@@ -336,9 +324,7 @@ images.forEach(item => {
       gsap.to(item, {scale: 1, stagger: .2, duration: 1, delay: .1})
       item.classList.remove('selected');
     })
-
   }
-  
 })
 
 //to the top button 
