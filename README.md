@@ -2,7 +2,7 @@
 
 My portfolio after finishing the JavaScript Course.
 
-Have been updated with React and Redux projects.
+Has been updated with React and Redux projects.
 
 Features 14 JavaScript, 3 React, and 1 Redux Project.
 
