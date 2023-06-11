@@ -489,6 +489,10 @@ ul {
     height: 15px;
     width: 15px;
   }
+
+  .responsive-icon {
+    margin-top: 1.4rem;
+  }
 }
 
 
@@ -598,7 +602,7 @@ ul {
 }
 
 .selected .view-btn  {
-  opacity: 0;
+  display: none;
 }
 
 @media all and (max-width: 1050px) {
