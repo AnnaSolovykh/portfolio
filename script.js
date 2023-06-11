@@ -100,7 +100,7 @@ installMediaQueryWatcher("(min-width: 1050px)", function(matches) {
             delay: 2.5})
     
     gsap.to(".life-facts-4", {
-              text: `Being an<span> open-minded</span>, realised that it I could enjoy that more... in coding.`,
+              text: `Being an<span> open-minded person</span>, realised that it I could enjoy that more... in coding.`,
               duration: 0.5,
               repeat: 0,
               ease: "power1.in",
