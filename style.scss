@@ -149,6 +149,14 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 70vh;
+}
+
+
+.page-wrapper {
+  text-align: center;
+  color: #fff;
+  z-index: 2;
 }
 
 .name {
@@ -169,35 +177,126 @@ nav {
   animation: textclip 2s linear infinite;
 }
 
+
+
 @keyframes textclip {
   to {
     background-position: 200% center;
   }
 }
 
+.profession {
+  color: #ed475c;
+  padding: 80px;
+  font-size: 60px;
+  font-family: Monoton;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+.profession:hover {
+  color: rgba(238,99,53,1);
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+/*glow for webkit*/
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff,
+      0 0 20px #ee6335,
+      0 0 30px #ee6335,
+      0 0 40px #ee6335
+      0 0 70px #ee6335,
+
+
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 15px #fff,
+      0 0 20px #FF1177,
+      0 0 35px #ed3b6e,
+      0 0 40px #ed3b6e,
+
+  }
+}
+
+
 @media all and (max-width: 1050px)  {
   .logo {
     flex-direction: column;
-
-  .girlImage {
-    margin-top: 20px;
-    }
+    height: 100%;
   }
 }
 @media all and (max-width: 500px)  {
   .name {
-    font-size: 45px;
+    font-size: 38px;
   }
 
   .profession {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .girlImage {
-    width: 300px;
-    height: 300px;
+    width: 290px;
+    height: 290px;
     }
 }
+
+/*glow for mozilla*/
+
+@-moz-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 30px #fff,
+      0 0 40px #FF1177,
+      0 0 70px #FF1177,
+      0 0 80px #FF1177,
+      0 0 100px #FF1177,
+      0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 15px #fff,
+      0 0 20px #FF1177,
+      0 0 35px #FF1177,
+      0 0 40px #FF1177,
+      0 0 50px #FF1177,
+      0 0 75px #FF1177;
+  }
+}
+
+/*glow*/
+
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 30px #fff,
+      0 0 40px #FF1177,
+      0 0 70px #FF1177,
+      0 0 80px #FF1177,
+      0 0 100px #FF1177,
+      0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 15px #fff,
+      0 0 20px #FF1177,
+      0 0 35px #FF1177,
+      0 0 40px #FF1177,
+      0 0 50px #FF1177,
+      0 0 75px #FF1177;
+  }
+}
+
 
 /*about*/
 .title {
@@ -208,7 +307,7 @@ nav {
   letter-spacing: 0.4rem;
   text-align: center;
   font-weight: 800;
-  margin-top: 100px;
+  margin-top: 5rem;
   text-shadow: 0 0 10px #fff,
       0 0 20px #fff,
       0 0 30px #ed3b6e,
@@ -238,6 +337,7 @@ li, .container-text  {
   text-align: left;
   margin-top: 5px;
   list-style: none;
+  line-height: 2.5rem;
 }
 
 span {
@@ -277,6 +377,7 @@ ul {
   .right {
     width: 80%;
   }
+
 }
 
  @media all and (max-width: 500px) {
@@ -294,16 +395,17 @@ ul {
     }
 
     li, p {
-      font-size: 15px;
+      font-size: 14px;
     }
-   
-   
-   p {
-    margin-top: 20px;
-    text-align: center;
+    p {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    li, .container-text {
+      line-height: 1.8rem;
+    }
   }
-   
- }
 
 
 /* #Slider */
@@ -1034,101 +1136,3 @@ header {
     transform: translateY($spacing * -1);
   }
 }
-
-.page-wrapper {
-  text-align: center;
-  color: #fff;
-  z-index: 2;
-}
-
-h4 {
-  color: #ed475c;
-  padding: 80px;
-  font-size: 60px;
-  font-family: Monoton;
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
-}
-
-h4:hover {
-  color: rgba(238,99,53,1);
-  -webkit-animation: none;
-  -moz-animation: none;
-  animation: none;
-}
-
-/*glow for webkit*/
-
-@-webkit-keyframes neon1 {
-  from {
-    text-shadow: 0 0 10px #fff,
-      0 0 20px #ee6335,
-      0 0 30px #ee6335,
-      0 0 40px #ee6335
-      0 0 70px #ee6335,
-
-
-  }
-  to {
-    text-shadow: 0 0 5px #fff,
-      0 0 10px #fff,
-      0 0 15px #fff,
-      0 0 20px #FF1177,
-      0 0 35px #ed3b6e,
-      0 0 40px #ed3b6e,
-
-  }
-}
-
-/*glow for mozilla*/
-
-@-moz-keyframes neon1 {
-  from {
-    text-shadow: 0 0 10px #fff,
-      0 0 20px #fff,
-      0 0 30px #fff,
-      0 0 40px #FF1177,
-      0 0 70px #FF1177,
-      0 0 80px #FF1177,
-      0 0 100px #FF1177,
-      0 0 150px #FF1177;
-  }
-  to {
-    text-shadow: 0 0 5px #fff,
-      0 0 10px #fff,
-      0 0 15px #fff,
-      0 0 20px #FF1177,
-      0 0 35px #FF1177,
-      0 0 40px #FF1177,
-      0 0 50px #FF1177,
-      0 0 75px #FF1177;
-  }
-}
-
-/*glow*/
-
-@keyframes neon1 {
-  from {
-    text-shadow: 0 0 10px #fff,
-      0 0 20px #fff,
-      0 0 30px #fff,
-      0 0 40px #FF1177,
-      0 0 70px #FF1177,
-      0 0 80px #FF1177,
-      0 0 100px #FF1177,
-      0 0 150px #FF1177;
-  }
-  to {
-    text-shadow: 0 0 5px #fff,
-      0 0 10px #fff,
-      0 0 15px #fff,
-      0 0 20px #FF1177,
-      0 0 35px #FF1177,
-      0 0 40px #FF1177,
-      0 0 50px #FF1177,
-      0 0 75px #FF1177;
-  }
-}
-
-
