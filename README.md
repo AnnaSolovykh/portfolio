@@ -4,7 +4,7 @@ My portfolio after finishing the JavaScript Course.
 
 Has been updated with React and Redux projects.
 
-Features 14 JavaScript, 4 React, and 1 Redux Project.
+Features 14 JavaScript, 4 React, 1 Node.js + Mongo DB Project, and 1 Redux Project.
 
 https://annasolovykh-portfolio.vercel.app
 
