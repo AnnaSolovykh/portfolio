@@ -79,21 +79,21 @@ installMediaQueryWatcher("(min-width: 1050px)", function(matches) {
       delay: 1})
       
     gsap.to(".life-facts-1", {
-        text: `Being a post-graduate in international relationships, I have always been passionate about <span>acquiring new knowledge.</span>`,
+        text: `Being a post-graduate in international relations, have always been passionate about <span>acquiring new knowledge.</span>`,
         duration: 0.5,
         repeat: 0,
         ease: "power1.in",
         delay: 1.5})
     
     gsap.to(".life-facts-2", {
-          text: `Being able to speak Russian, English, Turkish, German, and learning Spanish, <span> I perceive learning languages as an exciting hobby.</span>`,
+          text: `Being able to speak Russian, English, Turkish, German, and learning Spanish, <span> perceive learning languages as an exciting hobby.</span>`,
           duration: 0.5,
           repeat: 0,
           ease: "power1.in",
           delay: 2})
     
     gsap.to(".life-facts-3", {
-            text: `Being a former teacher of English, I have always enjoyed <span>double-checking</span> in seach for mistakes.`,
+            text: `Being a former teacher of English, have always enjoyed <span>double-checking</span> in seach for mistakes.`,
             duration: 0.5,
             repeat: 0,
             ease: "power1.in",
@@ -164,7 +164,7 @@ installMediaQueryWatcher("(min-width: 1050px)", function(matches) {
               <li class="why-me-5"></li>>Being <span>determined</span>, is full of desire to learn and achieve goals.</li>*/
     
               gsap.to(".about-me-1", {
-                text: `Being a <span>Russian</span>, based in <span>Turkey</span>,I am ready for cross-cultural communication and further relocation.`,
+                text: `Being a <span>Russian</span>, based in <span>Turkey</span>, I am ready for cross-cultural communication and relocation.`,
                 duration: 0.5,
                 repeat: 0,
                 ease: "power1.in",
@@ -198,28 +198,28 @@ installMediaQueryWatcher("(min-width: 1050px)", function(matches) {
       delay: 0})
       
     gsap.to(".life-facts-1", {
-        text: `Being a post-graduate in international relationships before relocation, has always been passionate about <span>acquiring new knowledge.</span>`,
+        text: `Being a post-graduate in international relations, have always been passionate about <span>acquiring new knowledge.</span>`,
         duration: 0.5,
         repeat: 0,
         ease: "power1.in",
         delay: 0})
     
     gsap.to(".life-facts-2", {
-          text: `Being able to speak Russian, English, Turkish, German, amd learning Spanish, <span>perceives learning languages as an exciting hobby.</span>`,
+          text: `Being able to speak Russian, English, Turkish, German, and learning Spanish, <span>perceive learning languages as an exciting hobby.</span>`,
           duration: 0.5,
           repeat: 0,
           ease: "power1.in",
           delay: 0})
     
     gsap.to(".life-facts-3", {
-            text: `Being a former teacher of English, has always encouraged students to <span>double-check</span> their writing and search for mistakes by themselves.`,
+            text: `Being a former teacher of English, have always enjoyed <span>double-checking</span> in search for mistakes.`,
             duration: 0.5,
             repeat: 0,
             ease: "power1.in",
             delay: 0})
     
     gsap.to(".life-facts-4", {
-              text: `Being <span>a burnout victim</span>, realised that I had better done that myself... in coding.`,
+              text: `Being an<span> open-minded person</span>, I realised that I could enjoy that more... in coding.`,
               duration: 0.5,
               repeat: 0,
               ease: "power1.in",
@@ -240,35 +240,35 @@ installMediaQueryWatcher("(min-width: 1050px)", function(matches) {
                   delay: 0})
                   
                 gsap.to(".why-me-1", {
-                    text: `Being <span>responsible</span>, is able to accomplish projects within time limits.`,
+                    text: `Being <span>responsible</span>, I am able to accomplish projects within time limits.`,
                     duration: 0.5,
                     repeat: 0,
                     ease: "power1.in",
                     delay: 0})
                 
                 gsap.to(".why-me-2", {
-                      text: `Being <span>detail-oriented</span>, is able to fulfill tasks up to the highest standarts.`,
+                      text: `Being <span>detail-oriented</span>, I am able to fulfill tasks up to the highest standarts.`,
                       duration: 0.5,
                       repeat: 0,
                       ease: "power1.in",
                       delay: 0})
                 
                 gsap.to(".why-me-3", {
-                        text: `Being <span>flexible</span>, is able to adjust to new rules.`,
+                        text: `Being <span>flexible</span>, I am able to adjust to new rules.`,
                         duration: 0.5,
                         repeat: 0,
                         ease: "power1.in",
                         delay: 0})
                 
                 gsap.to(".why-me-4", {
-                          text: `Being <span> organised</span>, is able to multitask.`,
+                          text: `Being <span> organised</span>, I am able to multitask.`,
                           duration: 0.5,
                           repeat: 0,
                           ease: "power1.in",
                           delay: 0})
                 
                 gsap.to(".why-me-5", {
-                            text: `Being <span>determined</span>, is full of desire to learn and achieve goals.`,
+                            text: `Being <span>determined</span>, I am full of desire to learn and achieve goals.`,
                             duration: 0.5,
                             repeat: 0,
                             ease: "power1.in",
@@ -283,7 +283,7 @@ installMediaQueryWatcher("(min-width: 1050px)", function(matches) {
               <li class="why-me-5"></li>>Being <span>determined</span>, is full of desire to learn and achieve goals.</li>*/
     
               gsap.to(".about-me-1", {
-                text: `Being a <span>Russian</span>, based in <span>Turkey</span>, is ready for cross-cultural communication and further relocation.`,
+                text: `Being a <span>Russian</span>, based in <span>Turkey</span>, I am ready for cross-cultural communication and relocation.`,
                 duration: 0.5,
                 repeat: 0,
                 ease: "power1.in",
