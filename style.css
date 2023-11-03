@@ -296,6 +296,9 @@ ul {
 }
 
 @media all and (max-width: 1050px) {
+  .container-text {
+    height: 140vh;
+  }
   ul {
     width: 80%;
   }
@@ -530,6 +533,7 @@ ul {
   box-shadow: 2px 3px 16px 12px rgba(255, 17, 119, 0.39);
   -webkit-box-shadow: 2px 3px 16px 12px rgba(255, 17, 119, 0.39);
   -moz-box-shadow: 2px 3px 16px 12px rgba(255, 17, 119, 0.39);
+  z-index: 1;
 }
 
 .view-container {
