@@ -85,7 +85,7 @@ nav {
       right: 0px;
       height: 100vh;
       top: 0;
-      background-color: rgba(228, 218, 184, 0.936);
+      background-color: rgba(0, 0, 0, 0.941);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -388,10 +388,12 @@ ul {
 
     .left {
       width: 100%;
+      align-self: center;
     }
     
     .right {
       width: 100%;
+      align-self: center;
     }
 
     li, p {
@@ -403,7 +405,7 @@ ul {
     }
 
     li, .container-text {
-      line-height: 1.8rem;
+      line-height: 1.3rem;
     }
   }
 
@@ -542,7 +544,7 @@ ul {
 }
   @media all and (max-width: 500px){
     .slides {
-      height: 30vh;
+      height: 40vh;
       width: 70%;
     }
     .slick-slide {
@@ -597,6 +599,12 @@ ul {
   }
 }
 
+@media all and (max-width: 500px) {
+  .skills-images {
+    height: 10px;
+    width: 10px;
+  }
+}
 
 /* Portfolio*/
 
@@ -724,7 +732,7 @@ ul {
   }
   
   .project {
-   height: 140px;
+    height: 140px;
   }
 }
 
